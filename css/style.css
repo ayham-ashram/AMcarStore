@@ -1,0 +1,404 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma;
+
+}
+body
+{
+    min-height: 100vh;
+}
+header
+{
+    position: relative;
+    background-color: #0b5071;
+    min-height: 100px;
+    display: flex;
+}
+header .logo
+{
+    margin: 0px 10px;
+    width: 25%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: cursive;
+}
+.logo span
+{
+    color: #8b6cb8;
+}
+nav
+{
+    width: 75%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    COLOR: #FFF;
+}
+nav ul li 
+{
+    list-style: none;
+    border: 1px solid #fff;
+    height: 32px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+nav ul li:hover
+{
+    background-color: #8b6cb8;
+}
+
+
+/* img car */
+
+
+.img__car
+{
+    height: 350px;
+    display: flex;
+
+
+}
+.car__sating
+{
+    background-color: #8b6cb8;
+    height: 350px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.look__car
+{
+    overflow: hidden;
+    position: relative;
+    height: 350px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.look__car i
+{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: #fff;
+    font-size: 30px;
+    font-family: cursive;
+}
+.car__sating::before
+{
+    margin: 20px;
+    content: "Find your next car today";
+    position: absolute;
+    left: 10px;
+    color: #fff;
+    font-size: 27px;
+    font-family: cursive;
+    top: 10px;
+}
+.look__car::after
+{
+    content: "welcome to car buying that revolves around you.";
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-family: monospace;
+}
+.form__car
+{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    width: 60%;
+
+}
+.form__car select
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    border: 0.3px solid #9e9e9e;
+}
+.sel__model
+{
+    background: rgba(255,255,255,.25);
+    color: rgba(0,0,0,.25);
+}
+.form__car button
+{
+    height: 50px;
+    border-radius: 50px;
+    border:black dashed;
+    background: #a07dd3;
+    color: #fff;
+}
+/* start in but and cell */
+
+.sell__buy
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.sell__buy .buy
+{
+    min-height: 350px;
+    background-color: #333;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.sell__buy .sell
+{
+    min-height: 350px;
+    background-color: #f6f1e4;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buy div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 200px;
+
+}
+.sell div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 200px;
+}
+.sell div button
+{
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+    background: #0b5071;
+    color: #fff;
+    font-size: 1.08rem;
+    font-weight: 500;
+}
+.buy div button
+{
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+    background: #0b5071;
+    color: #fff;
+    font-size: 1.08rem;
+    font-weight: 500;
+}
+.test
+{
+    height: 50vh;
+}
+/* how work */
+.howWork
+{
+    padding-top: 50px;
+    text-align: center;
+}
+.center
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.center .icon 
+{
+    margin-top: 50px;
+    height: 250px;
+    width: 250px;
+    /* background-color: #333; */
+    overflow: hidden;
+}
+.icon .slogen
+{
+    width: 150px;
+    height: 150px;
+    margin: 10px 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.cards
+{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.cards .card
+{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: #00000047;
+    height: 360px;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards .card img
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.cards .card:hover
+{
+    background: rgb(27 27 27 / 75%)
+
+}
+
+.head__cards h2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.cards .card div{
+    height:100px;
+
+}
+.bottom span
+{
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #000;
+    transition: all 0.4s;
+}
+.bottom span:hover
+{
+    box-shadow: 0px 0px 12px 2px #fff;
+    background-color: #a9a4a4;
+}
+.cards .card .bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ################################################### */
+
+.head_simple
+{
+    padding: 40px 0px 0px;
+    text-align: center;
+}
+.boxOwn
+{
+    margin: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+.own
+{
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    background: #e8e9ea;
+    align-content: center;
+    padding: 32px;
+    
+}
+.own div
+{
+    /* max-width: 300px; */
+    display: flex;
+    align-items: center;
+    margin:  32px auto;
+    padding: 32px;
+    max-width: 26%;
+}
+hr
+{
+    opacity: 0.5;
+}
+/* start style footer */
+
+.link__list
+{
+    color: #fff;
+    background: #0b5071;
+    display: flex;
+    justify-content: space-between;
+}
+.link__list .column
+{
+    margin: 10px;
+}
+.title__list
+{
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #333;
+}
+.column__list ul li 
+{
+    font-size: .9rem;
+    margin: 0px 0px 8px;
+    list-style: none;
+}
+.list__nav
+{
+    display: none;
+}
+.list__icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0b5071;
+}
+.list__icon .icons
+{
+    color: #fff;
+    margin: auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0b5071;
+}
+.list__icon .icons p
+{
+   padding: 50px;
+}

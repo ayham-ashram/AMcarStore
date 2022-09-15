@@ -1,0 +1,100 @@
+nav
+{
+    display: none;
+}
+header .logo
+{
+    margin: 0px 70px;
+}
+.form__car
+{
+    justify-content: center;
+}
+.form__car select
+{
+    margin: 20px 0px;
+}
+.look__car::after {
+    content: "welcome to car buying that revolves around you.";
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-family: monospace;
+    color: #fffdfd;
+}
+.list__move
+{
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.move
+{
+    height: 20px;
+    width: 20px;
+    border-bottom:4px solid #8b6cb8;
+    border-left:4px solid #8b6cb8;
+    transform: rotate(313deg);
+    margin: 20px 30px;
+    transition: all 0.3s;
+    animation-name: identifier;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes identifier {
+    0%{
+        margin: 20px 20px;
+    }
+    50%{
+        margin: 40px 20px;
+
+    }
+    100%{
+        margin: 20px  20px;
+
+    }
+}
+.list__nav
+{
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: -350px;
+    height: 350px;
+    background: beige;
+    z-index: 4;
+    width: 100%;
+    transition: all 0.5s;
+}
+.list__nav ul
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #0b5071;
+}
+.list__nav ul li
+{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #8b6cb8 solid;
+}
+.img__car
+{
+    flex-direction: column;
+    height:auto;
+}
+.img__car div
+{
+    width: 100%;
+    height: 45vh;
+}
